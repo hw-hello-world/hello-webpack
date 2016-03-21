@@ -1,0 +1,19 @@
+{
+    "name": "hello-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node_modules/.bin/webpack",
+        "dev": "node_modules/.bin/webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    },
+    "author": "Haisheng Wu <haisheng.wu@okta.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-loader": "^6.2.4",
+        "css-loader": "^0.23.1",
+        "style-loader": "^0.13.0",
+        "webpack-dev-server": "^1.14.1"
+    }
+}
